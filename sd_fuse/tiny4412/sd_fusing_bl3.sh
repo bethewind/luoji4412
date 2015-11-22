@@ -9,7 +9,8 @@
 ####################################
 
 
-#sudo ./sd_fusing.sh /dev/sdb ../../luoji4412/led/led.bin
+#sudo ./sd_fusing_bl3.sh /dev/sdb ../../ddr_IIC/BL2/make_bl2.bin ../../ddr_IIC/MAIN/main.bin 
+
 
 if [ -z $1 ]
 then
